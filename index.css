@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    margin: 0;
+}
+.header{
+text-align: center;
+background-color: #0c68bea8;
+font-size: 3vw;
+font-weight: bold;
+}
+footer>div{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(26, 194, 216);
+    font-size:2vw;
+    font-weight:bold;
+    position: fixed;
+    bottom: 0;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    text-align: right;
+    line-height: 30px;
+}
+.menu>li{
+    display: inline;
+    margin-left: 15px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
